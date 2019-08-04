@@ -1,0 +1,9 @@
+config AOS_APP_MYAPP1
+    bool "Myapp1"
+    select AOS_COMP_OSAL_AOS
+    help
+        myapp1
+
+if AOS_APP_MYAPP1
+# Configurations for app myapp1
+endif

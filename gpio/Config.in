@@ -1,0 +1,9 @@
+config AOS_APP_GPIO
+    bool "Gpio"
+    select AOS_COMP_OSAL_AOS
+    help
+        gpio
+
+if AOS_APP_GPIO
+# Configurations for app gpio
+endif
